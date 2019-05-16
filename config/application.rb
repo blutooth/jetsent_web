@@ -10,7 +10,9 @@ module Jetsent
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
-    config.assets.compile = true
+    config.assets.compile = false
+    config.serve_static_assets = true
+
 
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
     config.assets.paths << Rails.root.join("app", "assets", "images")
