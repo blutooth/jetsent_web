@@ -15,3 +15,8 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+
+#Rails.application.config.assets.precompile += %w( fullcalendar.print.min.css )
+#Rails.application.config.assets.precompile += %w( dataTables.bootstrap4.min.css)
+#Rails.application.config.assets.precompile += %w( gentellela_theme.js )
+Rails.application.config.assets.precompile << Proc.new { |path, fn| fn =~ /app\/assets\/images/ }
