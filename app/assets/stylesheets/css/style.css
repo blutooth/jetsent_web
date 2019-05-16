@@ -1821,6 +1821,11 @@ h1, h2, h3, h4, h5,
 .product-item-2 .price del {
   color: #adb5bd; }
 
+.site-blocks-cover {
+    background-image: url(/images/hero_2.jpg);
+    position:relative !important;
+}
+
 .product-item-2 .number {
   font-size: 8rem;
   font-weight: 900;
