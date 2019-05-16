@@ -22,12 +22,16 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
+  config.assets.paths << Rails.root.join("app", "assets", "fonts")
+  config.assets.paths << Rails.root.join("app", "assets", "images")
+
+
   # Compress JavaScripts and CSS.
-  config.assets.js_compressor = :uglifier
+  #config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  config.assets.compile = true
 
 
 
@@ -58,6 +62,7 @@ Rails.application.configure do
 
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
+  config.active_storage.service = :local
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
