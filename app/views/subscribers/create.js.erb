@@ -1,0 +1,7 @@
+$modal = $('.modal'),
+$modalBody = $('.modal .modal-body'),
+$modalHeading = $('.modal .modal-heading');
+$modalHeading.html("<%= @subscriber.email %>");
+$modalBody.html(" Some body HTML");
+$modal.modal('toggle');
+console.log("ADAGDAGAG")

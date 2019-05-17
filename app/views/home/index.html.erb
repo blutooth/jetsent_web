@@ -11,6 +11,7 @@
     }
     input{
       margin-right: 7px !important;
+      margin-left: 7px !important;
     }
     .tab {
       display:none;
@@ -50,6 +51,9 @@
           margin-right: 7px !important;
       }
   </style>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -67,36 +71,53 @@
     <div class="site-mobile-menu-body"></div>
   </div>
 
-  <div class="top-bar py-3 bg-light" id="home-section">
-    <div class="container">
-      <div class="row align-items-center">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home-section">
+      <!-- <div class="col-6 col-xl-6"> -->
+        <h1 class="mb-0 site-logo" style="position: initial;"><a href="#" class="text-black mb-0">JetSent<span class="text-primary">.</span>io</a></h1>
 
-          <div class="col-6 col-xl-6">
-            <h1 class="mb-0 site-logo"><a href="#" class="text-black mb-0">JetSent<span class="text-primary">.</span>io</a></h1>
-
-          </div>
-
-
-
-          <div class="d-flex" style="width:50%">
-
-            <input type="text" class="form-control rounded-0" id="search_bar"
-                   placeholder="Enter a link to your product from any site" style="width:90%;height:unset">
-            <input type="submit" class="btn btn-black btn-outline-black ml-1 rounded-0" value="Submit" style="height:unset">
-            <a href="#" class="btn btn-primary rounded-0">Login</a>
-            <a href="#" class="btn btn-primary rounded-0">Signup</a>
-
-          </div>
+      <!-- </div> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+     </button>
 
 
+               <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                   <form class="form-inline">
+                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                     </form>
 
-        </div>
-      </div>
-    </div>
+                    <a href="#" class="btn btn-primary rounded-0">Subscribe</a>
+
+                    <span class="navbar-text">
+                      Navbar text with an inline element
+                    </span>
+               </div> -->
+               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                   <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#">Features</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#">Pricing</a>
+                     </li>
+                   </ul>
+                   <span class="navbar-text">
+                       <a href="#" class="btn btn-primary rounded-0">Subscribe</a>
+                   </span>
+                 </div>
+
+  </nav>
 
 
 
 
+
+  <p id="error"><%= flash[:error] %></p>
+  <p id="notice"><%= flash[:notice] %></p>
   </header>
 </div>
 
@@ -106,6 +127,7 @@
 
     <div class="container">
       <div class="row align-items-center justify-content-center">
+          <%= render "layouts/modal" %>
 
         <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
 
@@ -119,6 +141,10 @@
                 <a href="#" class="btn btn-white btn-outline-white py-3 px-5 mb-lg-0 d-block d-sm-inline-block">Shop Now</a>
                 <a href="#" class="btn btn-white py-3 px-5 d-block d-sm-inline-block">Earn</a>
                 </div>
+                <%= form_for(@subscriber) do |f| %>
+                  <%= f.text_field :email %>
+                  <%= f.submit 'Subscribe',:onclick => "return alert('Are you sure data once submitted cant be changed?')" %>
+                <% end %>
               </div>
             </div>
           </div>
@@ -184,7 +210,7 @@
         <h2 class="section-title mb-3">How it works!</h2>
         <div class="lightswitch">
           <a href="#travelers" class="btn btn-tab ">Travelers</a>
-          <a href="#shoppers" class="btn btn-tab">Shoppers</a>
+          <a href="#shoppers" class="btn btn-tab active-btn">Shoppers</a>
         </div>
 
       </div>
