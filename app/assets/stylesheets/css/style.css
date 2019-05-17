@@ -74,7 +74,9 @@ h1, h2, h3, h4, h5,
 
 .btn {
   text-transform: uppercase;
-  font-size: 12px;
+    -webkit-box-shadow: none !important;
+
+    font-size: 12px;
   font-weight: 900;
   padding: 6px 20px; }
   .btn:hover, .btn:active, .btn:focus {
@@ -120,6 +122,7 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 43px;
+    -webkit-box-shadow: none !important;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
     border-color: #f16821; }
@@ -1874,4 +1877,83 @@ h1, h2, h3, h4, h5,
     min-width: 150px;
 }
 
+@keyframes flasher_1 {
+    0%{
+        opacity: 0.35;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
 
+@keyframes flasher_2 {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes flasher_3 {
+    0%{
+        opacity: 0.7;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 0.7;
+    }
+}
+
+
+
+.flash_1 {
+    animation: flasher_1 15s infinite;
+}
+
+
+.flash_2 {
+    animation: flasher_2 15s infinite;
+}
+
+.flash_3 {
+    animation: flasher_3 3s infinite;
+}
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.site-logo {
+    top: 12px;
+    padding-bottom: 20px;
+}
+
+
+#search_bar_button {
+    border-color: rgb(206, 212, 218);
+    color: rgb(95, 98, 101);
+}
+
+
+.search_bar_text {
+
+
+}
