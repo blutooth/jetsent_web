@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ddbe319-6b4a-4828-b880-3551a1074687" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/flags@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/intlTelInput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/src/application.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/flags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/flags@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jetsent_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jetsent_web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="3ddbe319-6b4a-4828-b880-3551a1074687" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -521,12 +500,12 @@
       <workItem from="1558190109907" duration="9428000" />
       <workItem from="1558200200281" duration="2320000" />
       <workItem from="1558202900257" duration="3938000" />
-      <workItem from="1558209132678" duration="1190000" />
+      <workItem from="1558209132678" duration="1454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53059000" />
+    <option name="totallyTimeSpent" value="53323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="128" width="1689" height="776" extended-state="0" />
