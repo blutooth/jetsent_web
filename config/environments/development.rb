@@ -49,8 +49,14 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+
   # Suppress logger output for asset requests.
   config.assets.quiet = true
+  config.public_file_server.enabled = true
+
+
+  config.assets.paths << Rails.root.join("app", "assets", "images")
+  config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
