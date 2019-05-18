@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ddbe319-6b4a-4828-b880-3551a1074687" name="Default Changelist" comment="" />
+    <list default="true" id="3ddbe319-6b4a-4828-b880-3551a1074687" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpacker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpacker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/packs/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/packs/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/packs/manifest.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/public/packs/manifest.json.gz" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -32,7 +37,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -102,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>earn</find>
       <find>About</find>
       <find>bt</find>
       <find>flash</find>
@@ -132,6 +140,7 @@
       <find>background-im</find>
       <find>intl</find>
       <find>bootstr</find>
+      <find>subscri</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,6 +169,7 @@
         <option value="$PROJECT_DIR$/config/webpack/environment.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/webpacker.yml" />
       </list>
     </option>
   </component>
@@ -201,108 +211,13 @@
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-ui-bundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-ui-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-ui.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="popper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="popper" type="462c0819:PsiDirectoryNode" />
-              <item name="farms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="popper" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="packs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -465,18 +380,18 @@
       <workItem from="1558190109907" duration="9428000" />
       <workItem from="1558200200281" duration="2320000" />
       <workItem from="1558202900257" duration="3938000" />
-      <workItem from="1558209132678" duration="1809000" />
+      <workItem from="1558209132678" duration="3164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53678000" />
+    <option name="totallyTimeSpent" value="55033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="128" width="1689" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496136" visible="true" weight="0.37066343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496136" visible="true" weight="0.37066343" />
       <window_info id="Structure" order="1" sideWeight="0.503864" side_tool="true" weight="0.36092514" />
       <window_info id="Favorites" order="2" sideWeight="0.50230414" side_tool="true" weight="0.1310616" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -490,7 +405,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921174" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4980341" weight="0.32921174" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50196594" side_tool="true" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50196594" side_tool="true" visible="true" weight="0.32921174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -778,7 +693,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
