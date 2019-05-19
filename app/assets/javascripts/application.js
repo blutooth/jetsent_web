@@ -10,6 +10,21 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require activestorage
-//= require turbolinks
-//= require_directory ./js
+//= //require activestorage
+//= //require turbolinks
+//= require js/jquery-3.3.1.min.js
+//=
+//= require js/jquery-migrate-3.0.1.min.js
+//= require js/jquery-ui.js
+//= require js/popper.min.js
+//=
+//= require js/owl.carousel.min.js
+//= require js/jquery.stellar.min.js
+//= require js/jquery.countdown.min.js
+//=
+//= require js/jquery.easing.1.3.js
+//= require js/aos.js
+//= require js/jquery.fancybox.min.js
+//=
+//= require js/jquery.sticky.js
+//= require js/main.js

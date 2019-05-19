@@ -16,11 +16,9 @@
 // const imagePath = (name) => images(name, true)
 
 
-import 'jquery/src/jquery'
-import 'jquery-ui-bundle/jquery-ui.js';
+
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/js/bootstrap';
-import 'intl-tel-input/build/js/intlTelInput';
 
 
 
