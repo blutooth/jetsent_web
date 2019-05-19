@@ -3,6 +3,12 @@
 <head>
   <%= stylesheet_link_tag 'application' %>
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <%= javascript_pack_tag 'application' %>
+  <%= stylesheet_pack_tag 'application' %>
+
+
   <style media="screen">
     a{
       margin-left:  7px !important;
@@ -50,6 +56,8 @@
           margin-right: 7px !important;
       }
   </style>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -66,6 +74,8 @@
     </div>
     <div class="site-mobile-menu-body"></div>
   </div>
+
+
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home-section">
       <!-- <div class="col-6 col-xl-6"> -->
@@ -103,7 +113,7 @@
                      </li>
                    </ul>
                    <span class="navbar-text">
-                       <a href="#" class="btn btn-primary rounded-0">Subscribe</a>
+                       <a href="#" class="btn btn-primary rounded-1">Subscribe</a>
                    </span>
                  </div>
 
@@ -138,11 +148,13 @@
                 <a href="#" class="btn btn-white btn-outline-white py-3 px-5 mb-lg-0 d-block d-sm-inline-block">Shop Now</a>
                 <a href="#" class="btn btn-white py-3 px-5 d-block d-sm-inline-block">Earn</a>
                 </div>
-                <%= form_for(@subscriber) do |f| %>
-                  <%= f.text_field :email %>
-                  <%= f.submit 'Subscribe',:onclick => "return alert('Are you sure data once submitted cant be changed?')" %>
+                <br>
+                <%= form_for @subscriber, :html => {:class => 'form-inline'} do |f| %>
+                  <%=  f.text_field :email, class: 'form-control', :type=>"tel", :placeholder=>"", :id=>"telephone", style: "height:60%"  %>
+                  <%= f.submit 'Subscribe',:onclick => "return alert('Are you sure data once submitted cant be changed?')", class: 'btn btn-white', style: "height:100%"  %>
                 <% end %>
-              </div>
+
+            </div>
             </div>
           </div>
         </div>
@@ -527,10 +539,10 @@
             </div>
             <div class="col-md-4 text_center">
               <h2 class="footer-heading mb-4">Follow Us</h2>
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              <a href="#" class="pl-0 pr-3"><i class="icon-facebook"></i></a>
+              <a href="#" class="pl-3 pr-3"><i class="icon-twitter"></i></a>
+              <a href="#" class="pl-3 pr-3"><i class="icon-instagram"></i></a>
+              <a href="#" class="pl-3 pr-3"><i class="icon-linkedin"></i></a>
             </div>
           </div>
         </div>

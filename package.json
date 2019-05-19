@@ -2,6 +2,21 @@
   "name": "jetsent",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "^4.0.2",
+    "bootstrap": "^4.3.1",
+    "intl-tel-input": "^15.0.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
     "yarn": "^1.16.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.4.1"
   }
 }
