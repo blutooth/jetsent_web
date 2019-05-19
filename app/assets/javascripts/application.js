@@ -18,12 +18,10 @@
 //= require js/jquery-ui.js
 //= require js/popper.min.js
 //=
-//= require js/bootstrap.min.js
 //= require js/owl.carousel.min.js
 //= require js/jquery.stellar.min.js
 //= require js/jquery.countdown.min.js
 //=
-//= require js/bootstrap-datepicker.min.js
 //= require js/jquery.easing.1.3.js
 //= require js/aos.js
 //= require js/jquery.fancybox.min.js
