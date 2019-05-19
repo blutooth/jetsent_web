@@ -1,0 +1,15 @@
+import "./js/aos";
+import "./js/bootstrap-datepicker.min";
+import "./js/jquery.countdown.min";
+import "./js/jquery.easing.1.3";
+import "./js/jquery.fancybox.min";
+import "./js/jquery.magnific-popup.min";
+import "./js/jquery.stellar.min";
+import "./js/jquery.sticky";
+import "./js/jquery-migrate-3.0.1.min";
+import "./js/main";
+import "./js/mediaelement-and-player.min";
+import "./js/owl.carousel.min";
+import "./js/popper.min";
+import "./js/slick.min";
+import "./js/typed";

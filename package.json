@@ -14,10 +14,10 @@
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10",
-    "yarn": "^1.16.0",
-    "webpack-dev-server": "^3.4.1"
-
+    "webpack-dev-server": "^3.4.1",
+    "yarn": "^1.16.0"
   },
   "devDependencies": {
+    "expose-loader": "^0.7.5"
   }
 }
