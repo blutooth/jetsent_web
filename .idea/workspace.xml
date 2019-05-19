@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ddbe319-6b4a-4828-b880-3551a1074687" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
       <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
     </list>
@@ -27,10 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-765">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
               </folding>
             </state>
           </provider>
@@ -38,6 +49,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.js">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
@@ -45,11 +57,30 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#868#905#0" expanded="true" />
               </folding>
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#808#845#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/config/webpack/production.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -59,6 +90,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="54" selection-start-column="54" selection-end-column="54" />
+=======
+        <entry file="file://$PROJECT_DIR$/config/webpack/environment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </state>
           </provider>
         </entry>
@@ -73,6 +119,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -91,11 +138,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="28" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/aos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/node_modules/jQuery/test/css.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -105,6 +159,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+=======
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </state>
           </provider>
         </entry>
@@ -113,6 +173,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+=======
+      <find>flash</find>
+      <find>shop</find>
+      <find>width</find>
+      <find>shop th</find>
+      <find>width:90%</find>
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
       <find>width:</find>
       <find>ente</find>
       <find>flex</find>
@@ -135,6 +203,7 @@
       <find>background-im</find>
       <find>intl</find>
       <find>bootstr</find>
+<<<<<<< HEAD
       <find>subscri</find>
       <find>comp</find>
       <find>application.css</find>
@@ -143,6 +212,11 @@
       <find>js</find>
       <find>applica</find>
       <find>background-ima</find>
+=======
+      <find>jquery</find>
+      <find>script</find>
+      <find>aos</find>
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,7 +231,6 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/css/style.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/js/main.js" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/intlTelInput.css" />
@@ -170,11 +243,19 @@
         <option value="$PROJECT_DIR$/config/webpacker.yml" />
         <option value="$PROJECT_DIR$/app/javascript/packs/app.vue" />
         <option value="$PROJECT_DIR$/app/javascript/src/application.scss" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/javascript/packs/application.scss" />
         <option value="$PROJECT_DIR$/app/javascript/src/load_js.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/javascript/packs/application.js" />
         <option value="$PROJECT_DIR$/config/webpack/environment.js" />
+=======
+        <option value="$PROJECT_DIR$/config/webpack/environment.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/js/main.js" />
+        <option value="$PROJECT_DIR$/app/javascript/packs/application.js" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
       </list>
     </option>
   </component>
@@ -189,6 +270,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,28 +285,70 @@
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="config" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </path>
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="environments" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </path>
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="webpack" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </path>
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="packs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
+            </path>
+            <path>
+              <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
               <item name="jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -296,32 +424,55 @@
               <item name="jetsent_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="jetsent_web" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="RailsProjectView" />
+=======
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/javascript/src" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/javascripts/js" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/app/javascript/src" />
       <recent name="$PROJECT_DIR$/app/javascript/packs" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/javascript/src" />
+=======
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/js" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/javascript/packs" />
+      <recent name="$PROJECT_DIR$/app/javascript/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/js" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
@@ -466,6 +617,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="72064000" />
   </component>
   <component name="ToolWindowManager">
@@ -473,6 +625,43 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496136" visible="true" weight="0.37066343" />
+=======
+    <option name="totallyTimeSpent" value="57861000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="214" y="184" width="1689" height="776" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496136" visible="true" weight="0.20024346" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
+      <window_info id="Structure" order="1" sideWeight="0.503864" side_tool="true" weight="0.36092514" />
+      <window_info id="Favorites" order="2" sideWeight="0.50230414" side_tool="true" weight="0.1310616" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4996957" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921174" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49665245" weight="0.32921174" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033475" side_tool="true" weight="0.32921174" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4980341" weight="0.32921174" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50030434" side_tool="true" visible="true" weight="0.32921174" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+<<<<<<< HEAD
+=======
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496136" visible="true" weight="0.20024346" />
       <window_info id="Structure" order="1" sideWeight="0.503864" side_tool="true" weight="0.36092514" />
       <window_info id="Favorites" order="2" sideWeight="0.50230414" side_tool="true" weight="0.1310616" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,23 +674,64 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921174" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49665245" weight="0.32921174" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033475" side_tool="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4980341" weight="0.32921174" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50196594" side_tool="true" weight="0.32921174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/aos.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery-3.3.1.min.js" />
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery-3.3.1.min.js">
+=======
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/about_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/background-image.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/PRODUCTION.RB" />
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery-3.3.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/config/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="13" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery-3.3.1.min.js">
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery.fancybox.min.js">
@@ -560,14 +790,7 @@
     <entry file="file://$PROJECT_DIR$/app/helpers/home_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3780">
-          <caret line="252" selection-start-line="252" selection-end-line="252" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -576,7 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery-ui.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/jquery-ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -626,6 +849,7 @@
     <entry file="file://$PROJECT_DIR$/node_modules/jquery-ui/tests/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/images/img_3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -639,6 +863,21 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/config/webpack/environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/img_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/max.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/intlTelInput.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13545">
@@ -650,6 +889,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="274" column="1" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -686,22 +926,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+=======
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/src/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/css/fonts/icomoon/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
+        <state relative-caret-position="-2700" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/css/fonts/icomoon/fonts/icomoon.svg">
+      <provider selected="true" editor-type-id="images" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -710,6 +955,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/node_modules/jQuery/src/wrapper.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -759,34 +1005,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="54" selection-start-column="54" selection-end-column="54" />
+=======
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/._aos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" lean-forward="true" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/aos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/src/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-765">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#868#905#0" expanded="true" />
+=======
+        <state relative-caret-position="232">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#808#845#0" expanded="true" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/webpack/environment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+>>>>>>> 901e5b1b176821cdc8e1de500d285fc4ef43a9b5
         </state>
       </provider>
     </entry>

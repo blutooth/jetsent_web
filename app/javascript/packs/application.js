@@ -20,10 +20,11 @@ import * as $ from 'jquery';
 window.$ = window.jQuery = $;
 
 
+
+
 import 'bootstrap/dist/js/bootstrap';
-import 'bootstrap/dist/css/bootstrap';
-import 'intl-tel-input/build/js/intlTelInput';
-import '../src/load_js';
+import 'bootstrap/dist/js/bootstrap';
+
 
 
 console.log('Hello World from Webpacker')
