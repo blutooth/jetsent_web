@@ -1,42 +1,34 @@
 {
-  "app.css": "/packs/css/app-c4b85cfd.css",
-  "app.js": "/packs/js/app-6bb31e490445cf2ed1ab.js",
-  "app.js.map": "/packs/js/app-6bb31e490445cf2ed1ab.js.map",
-  "application.js": "/packs/js/application-4b6d81a411251052386c.js",
-  "application.js.map": "/packs/js/application-4b6d81a411251052386c.js.map",
+  "app.js": "/packs/js/app-e1d2b6edbfcbb7631ec8.js",
+  "app.js.map": "/packs/js/app-e1d2b6edbfcbb7631ec8.js.map",
+  "application.js": "/packs/js/application-65640b7850375e6c9237.js",
+  "application.js.map": "/packs/js/application-65640b7850375e6c9237.js.map",
   "entrypoints": {
     "app": {
-      "css": [
-        "/packs/css/app-c4b85cfd.css"
-      ],
       "js": [
-        "/packs/js/app-6bb31e490445cf2ed1ab.js"
+        "/packs/js/app-e1d2b6edbfcbb7631ec8.js"
       ],
       "js.map": [
-        "/packs/js/app-6bb31e490445cf2ed1ab.js.map"
+        "/packs/js/app-e1d2b6edbfcbb7631ec8.js.map"
       ]
     },
     "application": {
       "js": [
-        "/packs/js/application-4b6d81a411251052386c.js"
+        "/packs/js/application-65640b7850375e6c9237.js"
       ],
       "js.map": [
-        "/packs/js/application-4b6d81a411251052386c.js.map"
+        "/packs/js/application-65640b7850375e6c9237.js.map"
       ]
     },
     "hello_vue": {
-      "css": [
-        "/packs/css/hello_vue-c4b85cfd.css"
-      ],
       "js": [
-        "/packs/js/hello_vue-acc031c3592b91495470.js"
+        "/packs/js/hello_vue-969c9bb714ca6d2e9dce.js"
       ],
       "js.map": [
-        "/packs/js/hello_vue-acc031c3592b91495470.js.map"
+        "/packs/js/hello_vue-969c9bb714ca6d2e9dce.js.map"
       ]
     }
   },
-  "hello_vue.css": "/packs/css/hello_vue-c4b85cfd.css",
-  "hello_vue.js": "/packs/js/hello_vue-acc031c3592b91495470.js",
-  "hello_vue.js.map": "/packs/js/hello_vue-acc031c3592b91495470.js.map"
+  "hello_vue.js": "/packs/js/hello_vue-969c9bb714ca6d2e9dce.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-969c9bb714ca6d2e9dce.js.map"
 }
