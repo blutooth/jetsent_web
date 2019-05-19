@@ -9,15 +9,16 @@ module.exports = environment
 environment.plugins.prepend(
     'Provide',
     new webpack.ProvidePlugin({
-        $: 'jQuery',
-        jQuery: 'jQuery',
-        jquery: 'jQuery',
+        $: 'jquery',
+        jQuery: 'jquery',
+        jquery: 'jquery',
         Popper: ['popper.js', 'default']
     })
 )
 
 environment.plugins.prepend('VueLoaderPlugin', new VueLoaderPlugin())
 environment.loaders.prepend('vue', vue)
+
 
 environment.loaders.append('expose', {
     test: require.resolve('jquery'),
