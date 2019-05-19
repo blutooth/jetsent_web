@@ -160,10 +160,12 @@
                 <a href="#" class="btn btn-white py-3 px-5 d-block d-sm-inline-block">Earn</a>
                 </div>
                 <br>
+              <!--
                 <%= form_for @subscriber, :html => {:class => 'form-inline'} do |f| %>
                   <%=  f.text_field :email, class: 'form-control', :type=>"tel", :placeholder=>"", :id=>"telephone", style: "height:60%"  %>
                   <%= f.submit 'Subscribe',:onclick => "return alert('Are you sure data once submitted cant be changed?')", class: 'btn btn-white', style: "height:100%"  %>
                 <% end %>
+              -->
 
             </div>
             </div>
@@ -396,7 +398,7 @@
 
         <div id="date-countdown" class="mb-5"></div>
 
-        <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a></p>
+        <p><a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded0 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a></p>
       </div>
     </div>
 
@@ -427,7 +429,7 @@
             had made to Europe to purchae luxury fashion. Driven from these frustrations, we wanted to build an easier way for friends and family to shop
             cheaply.
           </p>
-          <p><a href="#" class="btn btn-black btn-black--hover rounded-0">Learn More</a></p>
+          <p><a href="#" class="btn btn-black btn-black--hover rounded0">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -484,48 +486,69 @@
 
   <div class="site-section testimonial-wrap" id="testimonials-section">
     <div class="container">
-      <div class="row mb-5">
-        <div class="col-12 text-center">
-          <h3 class="section-sub-title">People Says</h3>
-          <h2 class="section-title mb-3">Testimonials</h2>
+      <h3 class="section-sub-title">People Say</h3>
+      <h2 class="section-title mb-3">Testimonials</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <div class="img-box"><img src="/images/person_3.jpg" alt=""></div>
+            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+            <p class="overview"><b>Michael Holz</b>Seo Analyst at <a href="#">OsCorp Tech.</a></p>
+            <div class="star-rating">
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/images/person_2.jpg" alt=""></div>
+            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+            <p class="overview"><b>Paula Wilson</b>Media Analyst at <a href="#">SkyNet Inc.</a></p>
+            <div class="star-rating">
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item carousel-item">
+            <div class="img-box"><img src="/images/person_1.jpg" alt=""></div>
+            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+            <p class="overview"><b>Antonio Moreno</b>Web Developer at <a href="#">Circle Ltd.</a></p>
+            <div class="star-rating">
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    <div class="slide-one-item home-slider owl-carousel">
-      <div>
-        <div class="testimonial">
-
-          <figure class="mb-4 d-block align-items-center justify-content-center">
-            <div><img src="images/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
-          </figure>
-
-          <blockquote class="mb-3">
-            <p>&ldquo;Do you know how a child looks when she get candy before lunch? That’s me today with my new Gucci purse. I got it from JetSent  and I was really surprised how cheaper It was!
-              &rdquo;</p>
-          </blockquote>
-
-          <p class="text-black"><strong>Roberta Aguilar</strong></p>
-
-
-        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
       </div>
 
-      <div>
-        <div class="testimonial">
-          <figure class="mb-4 d-block align-items-center justify-content-center">
-            <div><img src="images/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
-          </figure>
-          <blockquote class="mb-3">
-            <p>&ldquo;I absolutely love traveling. South America was definitely on the top of my list. A friend told me about JetSent and when I heard that I could make money traveling to South America, I jumped on the opportunity.
-              &rdquo;</p>
-          </blockquote>
-          <p class="text-black"><strong>Kyle McDonald</strong></p>
-
-
-        </div>
-
-      </div>
-
-    </div>
   </div>
   </div>
 
