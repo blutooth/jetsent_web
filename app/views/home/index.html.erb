@@ -32,7 +32,7 @@
       margin-left: 7px !important;
     }
     .tab {
-      display:none;
+      display: none;
     }
 
     .tab.active {
@@ -42,11 +42,24 @@
     a.active-btn{
       background-color: #000;
       text: white
+      height:
+
+    }
+    @media (max-width: 800px){
+      a.header-button{
+        margin-bottom: 8px ;
+        margin-top: 8px;
+      }
 
     }
 
+
     .btn-tab{
       text-align: center;
+    }
+
+    .carousel{
+      width: auto !important;
     }
 
 
@@ -75,7 +88,7 @@
 
 <div class="site-wrap">
 
-  <header class=" py-0 bg-white js-sticky-header site-navbar-target" role="banner">
+  <header class=" py-0 bg-white js-sticky-header site-navbar-target" style=" padding: 0px !important;" role="banner">
 
   <div class="site-mobile-menu site-navbar-target ">
     <div class="site-mobile-menu-header">
@@ -90,7 +103,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home-section">
       <!-- <div class="col-6 col-xl-6"> -->
-        <h1 class="mb-0 site-logo" style="position: initial;"><a href="#" class="text-black mb-0">JetSent<span class="text-primary">.</span>io</a></h1>
+        <h1 class="mb-0 site-logo" style="position: initial;padding-bottom: 0px;"><a href="#" class="text-black mb-0">JetSent<span class="text-primary">.</span>io</a></h1>
 
       <!-- </div> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,8 +169,8 @@
               <p class="mb-5 lead font-weight-bold">
                 JetSent connects shoppers and travelers to access the world's best products.</p>
                 <div>
-                <a href="#" class="btn btn-white btn-outline-white py-3 px-5 mb-lg-0 d-block d-sm-inline-block">Shop Now</a>
-                <a href="#" class="btn btn-white py-3 px-5 d-block d-sm-inline-block">Earn</a>
+                <a href="#" class="btn header-button btn-white btn-outline-white py-3 px-5 mb-lg-0 d-block d-sm-inline-block">Shop Now</a>
+                <a href="#" class="btn header-button btn-white py-3 px-5 d-block d-sm-inline-block">Earn</a>
                 </div>
                 <br>
               <!--
