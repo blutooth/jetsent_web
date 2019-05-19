@@ -21,8 +21,7 @@
 import 'jquery/src/jquery'
 import 'jquery-ui-bundle/jquery-ui.js';
 import 'bootstrap/dist/js/bootstrap';
-import 'bootstrap/dist/css/bootstrap-theme';
-
+import 'bootstrap/dist/css/bootstrap';
 import 'intl-tel-input/build/js/intlTelInput';
 
 
