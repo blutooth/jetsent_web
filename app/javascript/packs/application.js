@@ -15,7 +15,9 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+import * as $ from 'jquery';
 
+window.$ = window.jQuery = $;
 
 
 import 'bootstrap/dist/js/bootstrap';
