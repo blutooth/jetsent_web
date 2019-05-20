@@ -3,7 +3,9 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.0.2",
+    "add": "^2.0.6",
     "bootstrap": "^4.3.1",
+    "core-js": "3",
     "intl-tel-input": "^15.0.2",
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
@@ -13,9 +15,8 @@
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10",
+    "webpack-dev-server": "^3.4.1",
     "yarn": "^1.16.0"
   },
-  "devDependencies": {
-    "webpack-dev-server": "^3.4.1"
-  }
+  "devDependencies": {}
 }
