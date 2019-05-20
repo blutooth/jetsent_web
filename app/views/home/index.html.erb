@@ -573,14 +573,14 @@
           <div class="row">
             <div class="col-md-5 text_center">
               <h2 class="footer-heading mb-4">About Us</h2>
-              <p>JetSent is on a mission to open up the world's markets. We put trust and integrity at the core of our business so that you can eb assured of payment and goods delivered. </p>
+              <p>JetSent is on a mission to open up the world's markets. We put trust and integrity at the core of our business so that you can be assured of payment and goods delivered. </p>
             </div>
             <div class="col-md-5 text_center">
               <h2 class="footer-heading mb-4">Subscribe now</h2>
 
                 <%= form_for @subscriber, :html => {:class => 'form-inline'} do |f| %>
                   <%=  f.text_field :email, class: 'form-control', :type=>"tel", :placeholder=>"", :id=>"telephone", style: "height:60%"  %>
-                  <%= f.submit 'Subscribe',:onclick => "return alert('Are you sure data once submitted cant be changed?')", class: 'btn btn-white', style: "height:100%"  %>
+                  <%= f.submit 'Subscribe',:onclick => "return alert('Are you sure data once submitted cant be changed?')", class: 'btn btn-primary', style: "height:100%"  %>
                 <% end %>
 
             </div>
